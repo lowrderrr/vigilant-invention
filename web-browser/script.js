@@ -1,3 +1,5 @@
+
+
 let cursor = gsap
   .to(".cursor", {
     opacity: 0,
