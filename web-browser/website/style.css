@@ -1,3 +1,4 @@
+/*style header*/
 .header{
   padding:80px;
   text-align:cenetr;
@@ -5,6 +6,81 @@
   color:black;
 }
 
+/*increasefont size-*/
+
 .header h1{
   font-size:40px;
 }
+
+/*style nav bar*/
+
+.navbar{
+
+overflow:hidden;
+  background-color: #333;
+
+}
+
+.navbar a {
+
+float:left;
+  display:block;
+  color:white;
+  text-align:center;
+  pdding:14px 20px;
+  text-decoration:none;
+
+}
+
+/*right-align serach bar */
+
+
+/*chnage color of hover*/
+.nav bar: hover{
+  background-color:#ddd;
+  color:black;
+}
+
+/* column container */
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/*create two unewual columns that sit next to each other */
+/*sidebar \/ left column*/
+
+.side{
+
+  flex:30%;
+  background-color:#f1f1f1;
+  padding:20px;
+}
+
+/*main columns */
+
+.main{
+  flex: 70%;
+  background-color:white;
+  padding:20px;
+}
+
+/*img examples*/
+
+.img{
+  background-color:#aaa;
+  width:100%;
+  padding:20px;
+    
+  
+
+  
+
+
+
+
+
+
+
+
