@@ -1,3 +1,13 @@
+.header{
+  padding:80px;
+  text-align:center;
+  background:green;
+  color:balck;
+}
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
 
 body { 
