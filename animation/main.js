@@ -1,3 +1,39 @@
+const container = document.querySelector("grid-container");
+
+const createGrid=(rows, columns) => {
+    container.style.setProperty('--grid-rows',rows);
+    container.style.setProperty('--grid-cols',columns);
+
+    for(let i=0; i < (rows* columns); i++) {
+        let item = document.createElement("div");
+        item.classList.add('grid-item');
+        item.innerText = i + 1
+        container.appendChild(item)
+    }
+}
+
+createGrid(8,8)
+
+const fillGrid=(x, y, blockSize, color) =>
+    { 
+        let items = document.querySelectorAll(".grid-item");
+
+        for (let i=0; <items.length;i++){
+            let markup = '<div class="card" 
+                style= "grid-container: $(Math.floor(Math.random() *y) +1} /span ${blockSize};
+                grid-row:${Math.floor(Math.random() * x) +1} /span ${blockSize};
+                background: ${color};">${i} </div>'
+    container.innerHTML += markup
+        }
+    }
+fillGrid(1,1,2 "green")
+
+
+
+
+
+
+
 // JavaScript to add interactivity (Optional, for future enhancements)
 document.addEventListener("DOMContentLoaded", function() {
     // Example: Add an event listener to make the flower "bloom" or animate
