@@ -1,3 +1,7 @@
+ *{
+    box-sizing:border-box;
+  }
+
 /*style header*/
 .header{
   padding:80px;
