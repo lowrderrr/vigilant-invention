@@ -1,6 +1,17 @@
- *{
+
+
+
+
+
+
+
+*{
     box-sizing:border-box;
   }
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
 
 /*style header*/
 .header{
@@ -27,7 +38,7 @@ overflow:hidden;
 
 .navbar a {
 
-float:left;
+  float:left;
   display:block;
   color:white;
   text-align:center;
