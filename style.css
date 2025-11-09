@@ -27,6 +27,18 @@ body{
 overflow:hidden;
   background-color: #333;
 
+    body {
+        margin:0px;
+        padding: 0px; 
+    }
+        section#nav-bar{
+            background-color: grey;
+            padding: 2px; 
+        }
+
+    
+            
+
 }
 
 .navbar a {
