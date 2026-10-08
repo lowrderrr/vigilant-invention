@@ -1,4 +1,4 @@
-*{
+{
     box-sizing:border-box;
   }
 
@@ -16,7 +16,7 @@ body{
 
 /*increasefont size-*/
 
-.header h1{
+.header h1 {
   font-size:40px;
 }
 
@@ -27,11 +27,11 @@ body{
 overflow:hidden;
   background-color: #333;
 
-    body {
+    .body {
         margin:0px;
         padding: 0px; 
     }
-        section#nav-bar{
+        .section-navbar {
             background-color: grey;
             padding: 2px; 
         }
@@ -58,7 +58,7 @@ overflow:hidden;
 /*chnage color of hover*/
 .nav bar: hover{
   background-color:#ddd;
-  color:black;
+  color: black;
 }
 
 .flex-container{
@@ -104,7 +104,8 @@ overflow:hidden;
 }
 
 .image-container,
+    
 .text-content{
     width:100%
     margin-bottom:20px;
-SS}
+}
