@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 *{
     box-sizing:border-box;
   }
@@ -69,7 +64,7 @@ overflow:hidden;
 
 .row {
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 /*create two unewual columns that sit next to each other */
@@ -77,29 +72,29 @@ overflow:hidden;
 
 .side{
 
-  flex:30%;
-  background-color:#f1f1f1;
-  padding:20px;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
 /*main columns */
 
 .main{
   flex: 70%;
-  background-color:red;
-  padding:20px;
+  background-color: red;
+  padding: 20px;
 }
 
 /*img examples*/
 
 .img{
-  background-color:#aaa;
-  width:100%;
-  padding:20px;
-}
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
 
-.image-container,
+image-container,
+    
 .text-content{
     width:100%
     margin-bottom:20px;
-SS}
+}
